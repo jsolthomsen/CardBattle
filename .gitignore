@@ -1,0 +1,42 @@
+# Build and publish
+bin/
+obj/
+*.user
+*.suo
+
+# Rider-specific
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code (in case you use it occasionally)
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# .NET secrets
+**/secrets.json
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Azure stuff (optional)
+.publish/
+
+# Package management
+*.nupkg
+*.snupkg
+packages/
